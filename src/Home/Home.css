@@ -1,0 +1,32 @@
+.app{
+    background-color: #dadbd3;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+}
+
+.app_body{
+    display: flex;
+    background-color: #ededed;
+    height: 85vh;
+    width: 85vw;
+    box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.25);
+}
+.btn{
+    height:100%;
+    width: 75%;
+    display: flex;
+}
+.btn Button{
+display: flex;
+align-items:center ;
+justify-content: center;
+}
+.image{
+    object-fit: contain;
+}
+.image img{
+    height:100%;
+    width: 100%;
+}
